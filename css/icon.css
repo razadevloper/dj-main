@@ -1,0 +1,44 @@
+/*
+Codepen : Social Icons Hover Effects
+Author: Hassan Siraj
+Github URI: https://github.com/hassan-siraj/social-icons-hover-effects/blob/master/index.html
+Description: Social Icons Hover Effects.
+Version: 1.0
+*/
+* { margin: 0px; padding: 0px; }
+/**Icon Hover Effect 1**/
+.hover-effect1 { min-height: 200px; background: #F44336; text-align: center; }
+.hover-effect1 ul { padding-top: 50px; }
+.hover-effect1 ul li { display: inline-block; }
+.hover-effect1 ul li a { font-size: 40px; color: #fff; margin: 0px 10px; line-height: 100px; display: inline-block; width: 100px; height: 100px; background: #B71C1C; -webkit-transition: all .6s ease; -moz-transition: all .6s ease; -ms-transition: all .6s ease; -o-transition: all .6s ease; transition: all .6s ease; }
+.hover-effect1 ul li:hover a { border-radius: 50%; background: #B71C1C; -moz-transform: rotate(360deg); -webkit-transform: rotate(360deg); -o-transform: rotate(360deg); -ms-transform: rotate(360deg); transform: rotate(360deg); }
+/**Icon Hover Effect 2**/
+.hover-effect2 { min-height: 200px; background: #9C27B0; text-align: center; }
+.hover-effect2 ul { padding-top: 50px; }
+.hover-effect2 ul li { display: inline-block; }
+.hover-effect2 ul li a { font-size: 40px; color: #fff; margin: 0px 10px; line-height: 100px; display: inline-block; width: 100px; height: 100px; background: #6A1B9A; border-radius: 50%; -webkit-transition: all .6s ease; -moz-transition: all .6s ease; -ms-transition: all .6s ease; -o-transition: all .6s ease; transition: all .6s ease; }
+.hover-effect2 ul li:hover a { border-radius: 0%; background: #6A1B9A; }
+/**Icon Hover Effect 3**/
+.hover-effect3 { min-height: 200px; background: #2196F3; text-align: center; }
+.hover-effect3 ul { padding-top: 50px; }
+.hover-effect3 ul li { display: inline-block; }
+.hover-effect3 ul li a { font-size: 40px; color: #fff; margin: 0px 10px; line-height: 100px; display: inline-block; width: 100px; height: 100px; background: #0D47A1; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+.hover-effect3 ul li:hover a { background: #0D47A1; -webkit-box-shadow: 8px 8px 10px 0px #0D47A1; box-shadow: 8px 8px 10px 0px #0D47A1; }
+/**Icon Hover Effect 4**/
+.hover-effect4 { min-height: 200px; background: #009688; text-align: center; }
+.hover-effect4 ul { padding-top: 50px; }
+.hover-effect4 ul li { display: inline-block; }
+.hover-effect4 ul li a { font-size: 40px; color: #fff; margin: 0px 10px; line-height: 100px; display: inline-block; width: 90px; height: 90px; background: #00695C; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+.hover-effect4 ul li:hover a { background: #00695C; -moz-transform: scale(1.2); -webkit-transform: scale(1.2); -o-transform: scale(1.2); -ms-transform: scale(1.2); transform: scale(1.2); }
+/**Icon Hover Effect 5**/
+.hover-effect5 { min-height: 200px; background: #FFC107; text-align: center; }
+.hover-effect5 ul { padding-top: 50px; }
+.hover-effect5 ul li { display: inline-block; width: 100px; height: 100px; background: #FFA000; overflow: hidden; margin: 0px 10px; font-size: 40px; }
+.hover-effect5 ul li a { color: #fff; line-height: 100px; display: inline-block; width: 100px; height: 100px; background: #FFA000; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+.hover-effect5 ul li:hover a { -moz-transform: scale(2.4); -webkit-transform: scale(2.4); -o-transform: scale(2.4); -ms-transform: scale(2.4); transform: scale(2.4); color: #FFC107; line-height: 110px; text-shadow: 1px 1px 2px #FFA000; }
+/**Icon Hover Effect 6**/
+.hover-effect6 { min-height: 200px; background: #FF5722; text-align: center; }
+.hover-effect6 ul { padding-top: 50px; }
+.hover-effect6 ul li { display: inline-block; }
+.hover-effect6 ul li a { margin: 0px 10px; font-size: 40px; color: #fff; line-height: 100px; display: inline-block; width: 100px; height: 100px; background: #D84315; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; -webkit-box-shadow: 0px 5px 10px 2px #E64A19; box-shadow: 0px 5px 10px 2px #E64A19; }
+.hover-effect6 ul li:hover a { -webkit-box-shadow: none; box-shadow: none; }

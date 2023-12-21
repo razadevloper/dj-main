@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Add some basic styling to the square box */
+        .animated-box {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Create the animated border using :before pseudo-element */
+        .animated-box:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border: 2px solid transparent;
+            animation: borderAnimation 1s infinite alternate;
+            /* Apply the animation */
+        }
+
+        /* Define the animation */
+        @keyframes borderAnimation {
+            0% {
+                border-color: #e74c3c;
+            }
+
+            100% {
+                border-color: #000;
+            }
+        }
+
+        /* Adjust the border color on hover */
+        .animated-box:hover:before {
+            border-color: #27ae60;
+        }
+
+
+
+
+        .sound-wave {
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .bar {
+            animation-name: wave-lg;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            animation-direction: alternate;
+            background: #f32968; // Change the color for the bars
+            margin: 0 1.5px;
+            height: 10px;
+            width: 1px; // Change the number for the bar width
+
+            &:nth-child(-n + 7),
+            &:nth-last-child(-n + 7) {
+                animation-name: wave-md;
+            }
+
+            &:nth-child(-n + 3),
+            &:nth-last-child(-n + 3) {
+                animation-name: wave-sm;
+            }
+        }
+        }
+
+        @keyframes wave-sm {
+            0% {
+                opacity: 0.35;
+                height: 10px;
+            }
+
+            100% {
+                opacity: 1;
+                height: 25px;
+            }
+        }
+
+        @keyframes wave-md {
+            0% {
+                opacity: 0.35;
+                height: 15px;
+            }
+
+            100% {
+                opacity: 1;
+                height: 50px;
+            }
+        }
+
+        @keyframes wave-lg {
+            0% {
+                opacity: 0.35;
+                height: 15px;
+            }
+
+            100% {
+                opacity: 1;
+                height: 70px;
+            }
+        }
+    </style>
+    <title>Animated Border Effect</title>
+</head>
+
+<body>
+    <!-- The square box with animated border on hover -->
+    <div class="animated-box">
+        Hover me for an animated border!
+    </div>
+    <div class='sound-wave'>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+        <div class='bar'></div>
+    </div>
+
+
+    <script>
+        window.addEventListener("load", () => {
+            const bar = document.querySelectorAll(".bar");
+            for (let i = 0; i < bar.length; i++) {
+                bar.forEach((item, j) => {
+                    // Random move
+                    item.style.animationDuration = `${Math.random() * (0.7 - 0.2) + 0.2}s`; // Change the numbers for speed / ( max - min ) + min / ex. ( 0.5 - 0.1 ) + 0.1
+                });
+            }
+        });
+
+    </script>
+</body>
+
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .glow-container {
+            display: inline-block;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        .glow-container:hover {
+            box-shadow: 0 0 10px 5px rgba(255, 223, 0, 0.7);
+            transition: box-shadow 0.3s ease-in-out;
+        }
+    </style>
+    <title>Border Glowing Effect</title>
+</head>
+<body>
+    <div class="glow-container">
+        Hover me for a glowing effect!
+    </div>
+</body>
+</html> -->
